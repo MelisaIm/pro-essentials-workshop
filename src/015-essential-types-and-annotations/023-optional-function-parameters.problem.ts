@@ -1,10 +1,6 @@
 import { Expect, Equal } from "@total-typescript/helpers";
 
 const concatName = (first: string, last: string = "Pocock") => {
-  if (!last) {
-    return first;
-  }
-
   return `${first} ${last}`;
 };
 
