@@ -7,12 +7,15 @@ type MyObj = {
 const acceptsObj = (obj: MyObj) => {};
 
 acceptsObj({
-  // Autocomplete in here!
+  // Autocomplete this object!
+  foo: "",
+  bar: 0,
+  baz: true,
 });
 
 document.addEventListener(
   // Autocomplete this string!
-  "",
+  "click",
   (event) => {
     console.log(event);
   },
